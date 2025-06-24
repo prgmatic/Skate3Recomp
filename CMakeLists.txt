@@ -209,3 +209,6 @@ set(HEADERS
 
 # Create executable
 add_executable(${PROJECT_NAME} ${SOURCES} ${HEADERS})
+target_compile_options(${PROJECT_NAME} PRIVATE -Wno-exceptions)
+
+add_subdirectory(tools/XenonRecomp)

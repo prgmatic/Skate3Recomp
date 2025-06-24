@@ -1,7 +1,7 @@
 ppc
 packaged
 extracted
-cmake-build-debug-visual-studio
+debug
 default.xex
 default.xexp
 .idea
